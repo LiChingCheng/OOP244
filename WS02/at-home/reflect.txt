@@ -1,0 +1,38 @@
+1)Why do you need to allocate new dynamic memory when you increase 
+the size of an existing array of dynamically allocated memory?
+Because we can't add one more memory into our existing dynamic memory, 
+so we need to allocate a new dynamic memory that has size of three. 
+
+2)The Kingdom structure stores the name of the kingdom in an array 
+of characters. At the end of the program, we do not use the delete 
+operator to deallocate the memory occupied by the name itself. 
+Why don’t we need to use the delete e operator on this array itself? 
+Because when we deallocate the pkingdom dynamic memory we also delete 
+the data in our Kingdom structure.
+
+3)There are two display(...) function definitions. How does the 
+compiler know which definition to call from your main function? 
+The compiler can distinguish two functions with same name by their parameter types 
+and the order of the parameter types.
+
+4)Describe what have you have learned in this workshop.
+I understand what the meaning of dynamic memory is and how it works.
+Also, when we have function overloading problem, how we can fix this problem. 
+
+Quiz 1 Reflection
+
+1.
+It can avoid we use wrong identifier within different namespaces.
+
+2.
+Because .h files only contain function prototypes and declarations, 
+no any implementation code.
+
+3.
+#include <iostream>
+#include "hello.h"
+using namespace std;
+using namespace sict;
+
+4.
+g++ -std=c++0x main_app.cpp hello.cpp

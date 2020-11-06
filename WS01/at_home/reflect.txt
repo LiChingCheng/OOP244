@@ -1,0 +1,30 @@
+Name: Cheng, Li-Ching
+
+Student number: 143292175
+
+Email: lcheng49@myseneca.ca
+Section: SAB
+
+1.What is a namespace? Explain its purpose.
+   Some variables or functions have same name in entire file. 
+We use namespace to ensure the scope of variables or functions are what we want to use. 
+Make sure we won’t use different scope of variables or functions.
+
+2.Why are header files needed? Explain.
+   We need header files to store function prototypes that be used in our .cpp file. If we don’t have 
+ header files means we don’t have the function declarations, the main() function wouldn’t 
+know what the function is. 
+
+3.In the instructions above, you were directed to compile only .cpp files 
+but not the .h files. Explain why you should never compile header files.
+   Header files don't need to be compiled because they only contain passive code such as function prototypes.
+Passive code doesn't need to be executed because it is not a implementation file.
+
+4.Explain why you should never include .cpp files in another file.
+   If we include .cpp files in another file, compiler will compile twice for one code.
+It breaks the one-definition rule and will show errors.
+
+5.Explain in your own words what have you learned on this workshop.
+   From this workshop, I learned why we should use namespace in our code, 
+and how to create and use a namespace in our .h and .cpp files. 
+Also, how the #ifndef and #endif two functions work in our code.

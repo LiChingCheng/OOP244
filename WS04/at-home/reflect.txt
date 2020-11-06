@@ -1,0 +1,22 @@
+1)What is a safe empty state? Could you define a safe empty state that differs from the empty state that you defined? 
+   Safe empty state means that we initialize our objects as a default values that we 
+set in the constructor(not empty state, e.g Null or nullptr). It can make sure our objects won’t contain garbage values.
+
+2)Identify the parts of your source code where to minimized code duplication. 
+   We minimized our code by using constructors to initialize our objects at creation-time 
+which have no parameter or invalid parameters.  
+
+3)The canTravelWith(...) member function accesses the private data of the object referenced 
+in its parameter. Explain why C++ allows this access.
+   Because our objects are pass the value by reference to the function.
+
+4)What statement did you add to ensure that the strncpy(...) function executes correctly? 
+   We need to include <cstring> to ensure the function “strncpy()” can executes correctly.
+
+5)Explain what you have learned in this workshop.
+   In this workshop, I learned how to use construction and why we use destruction when we create a construction. 
+
+
+Quiz 3 Reflection
+1.Member functions is a link between private data members and client code.
+2.A class is a data type and an object is an instance of a class.

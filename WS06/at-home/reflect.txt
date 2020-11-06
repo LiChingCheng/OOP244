@@ -1,0 +1,14 @@
+1) Why does the copy assignment operator check for self-assignment before doing anything else? 
+   If our current object is equal to the source object, means they are point to the same address.
+If we don't check for self-assignment, when we deallocate the memory, those data which are store
+in the momery will be gone. As the result, we have nothing to copy. 
+
+2) List examples of how you avoided code duplication. 
+   We use two constructors to reduce our code when we create the new object and use overloaded operator
++= to add more data into our object without writing same code again. Also, we use overloaded operator =
+to make a same value but different object in our code.
+
+3) List what you have learned in completing this workshop. 
+   In this workshop, I learned how to code the copy constructor, copy assignment operator, 
+and overloaded operator. Also, I know why we need to deallocate the memory before we allocate
+another dynamic memory.

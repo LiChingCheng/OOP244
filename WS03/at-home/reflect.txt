@@ -1,0 +1,33 @@
+1)How many elements are there in each C-style character string 
+that stores a family or given name for the account? Why? 
+   40 elements, because we define the max length of name is 40, 
+so we can only store 40 characters in each C-style character string.
+
+
+2)Your class declares two member functions named set(...).  
+In C, this would generate an error.  Name the feature of C++ that allows this.
+   When we have two same name of member functions, C++ will check their parameter 
+types next and then check the order of the parameter types. If parameter types 
+and the order the parameter types are different, C++ will accept that.
+
+
+3)What have you learned in completing this workshop? 
+   Through this workshop, I learned 
+1.how to create a class and an object
+2.how the private and public work 
+3.what the data members and member functions are doing.
+
+ Quiz 2 Reflection:
+1.	
+Dynamic memory can save the space for user because it will 
+ask how many space do we need then give us correct number of spaces.
+
+2.	
+It passes parameter by reference.
+
+3.	
+Char* word=nullptr;
+Word=new char[7];
+Strcpy(word,”OOP244”);
+Delete[] word;
+Word=nullptr;

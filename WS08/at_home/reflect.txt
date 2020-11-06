@@ -1,0 +1,14 @@
+1. What is the difference between an abstract base class and a concrete class? 
+   An abstract class contains one or more pure virtual functions and those functions don't have definitions.
+However, functions in the concrete class must have definition and we can instantiate them.
+
+2. Identify the functions that shadow functions of the same name in your solution? 
+   ChequingAccount::credit() shadows Account::credit(). 
+   ChequingAccount::debit() shadows Account::debit().
+
+3. Explain what have you learned in this workshop. 
+   In this workshop, I've learned that why we should use pure virtual function and how it works for us.
+
+Quiz 7 Reflection
+
+2. An animal class can be the base class and a dog class can be the derived class. 

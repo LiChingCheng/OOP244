@@ -1,0 +1,16 @@
+﻿  seneGraph.cpp
+e:\win\seneca\oop244\ws01\in_lab\senegraph.cpp(19): error C2065: 'cout': undeclared identifier
+e:\win\seneca\oop244\ws01\in_lab\senegraph.cpp(19): error C2065: 'endl': undeclared identifier
+e:\win\seneca\oop244\ws01\in_lab\senegraph.cpp(21): error C2065: 'cout': undeclared identifier
+e:\win\seneca\oop244\ws01\in_lab\senegraph.cpp(21): error C2065: 'endl': undeclared identifier
+e:\win\seneca\oop244\ws01\in_lab\senegraph.cpp(24): error C2065: 'cout': undeclared identifier
+e:\win\seneca\oop244\ws01\in_lab\senegraph.cpp(29): error C2065: 'cout': undeclared identifier
+e:\win\seneca\oop244\ws01\in_lab\senegraph.cpp(29): error C2065: 'endl': undeclared identifier
+e:\win\seneca\oop244\ws01\in_lab\senegraph.cpp(32): error C2065: 'cout': undeclared identifier
+e:\win\seneca\oop244\ws01\in_lab\senegraph.cpp(32): error C2065: 'endl': undeclared identifier
+e:\win\seneca\oop244\ws01\in_lab\senegraph.cpp(38): error C2065: 'cout': undeclared identifier
+e:\win\seneca\oop244\ws01\in_lab\senegraph.cpp(38): error C2065: 'endl': undeclared identifier
+e:\win\seneca\oop244\ws01\in_lab\senegraph.cpp(41): error C2065: 'cout': undeclared identifier
+e:\win\seneca\oop244\ws01\in_lab\senegraph.cpp(41): error C2065: 'endl': undeclared identifier
+e:\win\seneca\oop244\ws01\in_lab\senegraph.cpp(48): error C2065: 'cout': undeclared identifier
+e:\win\seneca\oop244\ws01\in_lab\senegraph.cpp(48): error C2065: 'endl': undeclared identifier

@@ -1,0 +1,21 @@
+1. Does the Hero class need to know about the existence of the SuperHero class? (Hint: search for “SuperHero” in Hero.cpp)  
+   No, the Hero class doesn't need to know about the existence of the SuperHero class.
+
+2. Does the SuperHero class need to know about the existence of the Hero class? (Hint: search for “Hero” in SuperHero.cpp) 
+   Yes, SuperHero class need to know about the existence of the Hero class because Hero class is the base class of SuperHero class.
+
+3. The program prints out “Ancient Battle!” when two Heroes fight. It prints out “Super Fight!” when two SuperHeroes fight. 
+When you made a Hero fight a SuperHero, what did it print out? 
+   "Ancient Battle!"
+
+4. True or False: is the following definition for main valid? Explain. 
+int main() {   Hero("Achilles", 20, 6) * Hero("Hector", 30, 5); } 
+   True. Those no name objects call temporary objects, so they still can work.
+
+5. True or False: is the following definition for main valid? Explain. 
+int main() {  (Hero("Achilles", 20, 6) * Hero("Hector", 30, 5))*  (Hero("Atalanta", 10, 3) * Hero("Hippolyta", 10, 2)); }
+   True. Those no name objects call temporary objects, so they still can work.
+
+QUIZ 6 Reflection
+
+1.Employee a, b=a;
